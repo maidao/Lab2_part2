@@ -14,6 +14,10 @@
 		B125F5501DB146FB00AD5D5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B125F54E1DB146FB00AD5D5D /* LaunchScreen.storyboard */; };
 		B125F55B1DB146FB00AD5D5D /* LabWork2_collectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125F55A1DB146FB00AD5D5D /* LabWork2_collectionTests.swift */; };
 		B125F5661DB146FB00AD5D5D /* LabWork2_collectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125F5651DB146FB00AD5D5D /* LabWork2_collectionUITests.swift */; };
+		B125F5761DB146FB00AD5D5D /* cellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = B125F5731DB146FB00AD5D5D /* cellBackground.png */; };
+		B125F5771DB146FB00AD5D5D /* texturedBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = B125F5741DB146FB00AD5D5D /* texturedBackground.png */; };
+		B125F5781DB146FB00AD5D5D /* titleImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B125F5751DB146FB00AD5D5D /* titleImage.png */; };
+		B125F57A1DB146FB00AD5D5D /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125F5791DB146FB00AD5D5D /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		B125F5611DB146FB00AD5D5D /* LabWork2_collectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabWork2_collectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B125F5651DB146FB00AD5D5D /* LabWork2_collectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabWork2_collectionUITests.swift; sourceTree = "<group>"; };
 		B125F5671DB146FB00AD5D5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B125F5731DB146FB00AD5D5D /* cellBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cellBackground.png; path = ../../../Downloads/takerollAssets/cellBackground.png; sourceTree = "<group>"; };
+		B125F5741DB146FB00AD5D5D /* texturedBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = texturedBackground.png; path = ../../../Downloads/takerollAssets/texturedBackground.png; sourceTree = "<group>"; };
+		B125F5751DB146FB00AD5D5D /* titleImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = titleImage.png; path = ../../../Downloads/takerollAssets/titleImage.png; sourceTree = "<group>"; };
+		B125F5791DB146FB00AD5D5D /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCollectionViewCell.swift; path = ../MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,12 @@
 		B125F5441DB146FB00AD5D5D /* LabWork2_collection */ = {
 			isa = PBXGroup;
 			children = (
+				B125F5731DB146FB00AD5D5D /* cellBackground.png */,
+				B125F5741DB146FB00AD5D5D /* texturedBackground.png */,
+				B125F5751DB146FB00AD5D5D /* titleImage.png */,
 				B125F5451DB146FB00AD5D5D /* AppDelegate.swift */,
 				B125F5471DB146FB00AD5D5D /* ViewController.swift */,
+				B125F5791DB146FB00AD5D5D /* MyCollectionViewCell.swift */,
 				B125F5491DB146FB00AD5D5D /* Main.storyboard */,
 				B125F54C1DB146FB00AD5D5D /* Assets.xcassets */,
 				B125F54E1DB146FB00AD5D5D /* LaunchScreen.storyboard */,
@@ -233,6 +245,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B125F5501DB146FB00AD5D5D /* LaunchScreen.storyboard in Resources */,
+				B125F5761DB146FB00AD5D5D /* cellBackground.png in Resources */,
+				B125F5781DB146FB00AD5D5D /* titleImage.png in Resources */,
+				B125F5771DB146FB00AD5D5D /* texturedBackground.png in Resources */,
 				B125F54D1DB146FB00AD5D5D /* Assets.xcassets in Resources */,
 				B125F54B1DB146FB00AD5D5D /* Main.storyboard in Resources */,
 			);
@@ -261,6 +276,7 @@
 			files = (
 				B125F5481DB146FB00AD5D5D /* ViewController.swift in Sources */,
 				B125F5461DB146FB00AD5D5D /* AppDelegate.swift in Sources */,
+				B125F57A1DB146FB00AD5D5D /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
